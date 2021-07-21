@@ -15,7 +15,34 @@ class BrowseViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func DigitalArtTapped(_ sender: Any) {
+        openUrl(urlStr: "https://conceptartworld.com/")
+    }
+    func openUrl(urlStr: String!){
+        if let url = URL(string:urlStr), !url.absoluteString.isEmpty {
+            UIApplication.shared.open(url,options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func PaintingTapped(_ sender: Any) {
+    }
+    
+    
+    @IBAction func MusicTapped(_ sender: Any) {
+    }
+    
+    
+    @IBAction func CraftMakingTapped(_ sender: Any) {
+    }
+    
+    
+    @IBAction func SculptureTapped(_ sender: Any) {
+    }
+    
+    
+    @IBAction func CulinaryTapped(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
