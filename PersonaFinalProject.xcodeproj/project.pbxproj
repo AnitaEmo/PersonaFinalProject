@@ -16,6 +16,12 @@
 		A8D3BA1C26A872FE000C6E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D3BA1A26A872FE000C6E19 /* LaunchScreen.storyboard */; };
 		A8D3BA2726A872FE000C6E19 /* PersonaFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA2626A872FE000C6E19 /* PersonaFinalProjectTests.swift */; };
 		A8D3BA3226A872FE000C6E19 /* PersonaFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA3126A872FE000C6E19 /* PersonaFinalProjectUITests.swift */; };
+		A8D3BA4026A87C86000C6E19 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA3F26A87C86000C6E19 /* BrowseViewController.swift */; };
+		A8D3BA4226A87D29000C6E19 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4126A87D29000C6E19 /* ProfileViewController.swift */; };
+		A8D3BA4426A87F7D000C6E19 /* Sell&BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4326A87F7D000C6E19 /* Sell&BuyViewController.swift */; };
+		A8D3BA4626A88295000C6E19 /* CollaborateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4526A88295000C6E19 /* CollaborateViewController.swift */; };
+		A8D3BA4826A88871000C6E19 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4726A88871000C6E19 /* SignInViewController.swift */; };
+		A8D3BA4A26A889FF000C6E19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		A8D3BA2D26A872FE000C6E19 /* PersonaFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonaFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D3BA3126A872FE000C6E19 /* PersonaFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaFinalProjectUITests.swift; sourceTree = "<group>"; };
 		A8D3BA3326A872FE000C6E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D3BA3F26A87C86000C6E19 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		A8D3BA4126A87D29000C6E19 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A8D3BA4326A87F7D000C6E19 /* Sell&BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sell&BuyViewController.swift"; sourceTree = "<group>"; };
+		A8D3BA4526A88295000C6E19 /* CollaborateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborateViewController.swift; sourceTree = "<group>"; };
+		A8D3BA4726A88871000C6E19 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 				A8D3BA1A26A872FE000C6E19 /* LaunchScreen.storyboard */,
 				A8D3BA1D26A872FE000C6E19 /* Info.plist */,
 				A8D3BA1526A872FD000C6E19 /* PersonaFinalProject.xcdatamodeld */,
+				A8D3BA3F26A87C86000C6E19 /* BrowseViewController.swift */,
+				A8D3BA4126A87D29000C6E19 /* ProfileViewController.swift */,
+				A8D3BA4326A87F7D000C6E19 /* Sell&BuyViewController.swift */,
+				A8D3BA4526A88295000C6E19 /* CollaborateViewController.swift */,
+				A8D3BA4726A88871000C6E19 /* SignInViewController.swift */,
+				A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */,
 			);
 			path = PersonaFinalProject;
 			sourceTree = "<group>";
@@ -261,10 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D3BA4226A87D29000C6E19 /* ProfileViewController.swift in Sources */,
+				A8D3BA4626A88295000C6E19 /* CollaborateViewController.swift in Sources */,
 				A8D3BA1126A872FD000C6E19 /* ViewController.swift in Sources */,
 				A8D3BA0D26A872FD000C6E19 /* AppDelegate.swift in Sources */,
+				A8D3BA4A26A889FF000C6E19 /* SignUpViewController.swift in Sources */,
 				A8D3BA1726A872FD000C6E19 /* PersonaFinalProject.xcdatamodeld in Sources */,
+				A8D3BA4826A88871000C6E19 /* SignInViewController.swift in Sources */,
 				A8D3BA0F26A872FD000C6E19 /* SceneDelegate.swift in Sources */,
+				A8D3BA4426A87F7D000C6E19 /* Sell&BuyViewController.swift in Sources */,
+				A8D3BA4026A87C86000C6E19 /* BrowseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
