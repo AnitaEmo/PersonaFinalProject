@@ -22,6 +22,7 @@
 		A8D3BA4626A88295000C6E19 /* CollaborateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4526A88295000C6E19 /* CollaborateViewController.swift */; };
 		A8D3BA4826A88871000C6E19 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4726A88871000C6E19 /* SignInViewController.swift */; };
 		A8D3BA4A26A889FF000C6E19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */; };
+		A8D3BA8B26A895EB000C6E19 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA8A26A895EB000C6E19 /* GradientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A8D3BA4526A88295000C6E19 /* CollaborateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborateViewController.swift; sourceTree = "<group>"; };
 		A8D3BA4726A88871000C6E19 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A8D3BA8A26A895EB000C6E19 /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				A8D3BA4526A88295000C6E19 /* CollaborateViewController.swift */,
 				A8D3BA4726A88871000C6E19 /* SignInViewController.swift */,
 				A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */,
+				A8D3BA8A26A895EB000C6E19 /* GradientViewController.swift */,
 			);
 			path = PersonaFinalProject;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8D3BA4226A87D29000C6E19 /* ProfileViewController.swift in Sources */,
+				A8D3BA8B26A895EB000C6E19 /* GradientViewController.swift in Sources */,
 				A8D3BA4626A88295000C6E19 /* CollaborateViewController.swift in Sources */,
 				A8D3BA1126A872FD000C6E19 /* ViewController.swift in Sources */,
 				A8D3BA0D26A872FD000C6E19 /* AppDelegate.swift in Sources */,
