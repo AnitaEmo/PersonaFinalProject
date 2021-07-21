@@ -23,6 +23,8 @@
 		A8D3BA4826A88871000C6E19 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4726A88871000C6E19 /* SignInViewController.swift */; };
 		A8D3BA4A26A889FF000C6E19 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */; };
 		A8D3BA8B26A895EB000C6E19 /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA8A26A895EB000C6E19 /* GradientViewController.swift */; };
+		A8D3BA8D26A8C675000C6E19 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA8C26A8C675000C6E19 /* PopUpViewController.swift */; };
+		A8D3BA8F26A8C912000C6E19 /* PopUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3BA8E26A8C912000C6E19 /* PopUp2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		A8D3BA4726A88871000C6E19 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A8D3BA8A26A895EB000C6E19 /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		A8D3BA8C26A8C675000C6E19 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		A8D3BA8E26A8C912000C6E19 /* PopUp2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 				A8D3BA4726A88871000C6E19 /* SignInViewController.swift */,
 				A8D3BA4926A889FF000C6E19 /* SignUpViewController.swift */,
 				A8D3BA8A26A895EB000C6E19 /* GradientViewController.swift */,
+				A8D3BA8C26A8C675000C6E19 /* PopUpViewController.swift */,
+				A8D3BA8E26A8C912000C6E19 /* PopUp2ViewController.swift */,
 			);
 			path = PersonaFinalProject;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 				A8D3BA0D26A872FD000C6E19 /* AppDelegate.swift in Sources */,
 				A8D3BA4A26A889FF000C6E19 /* SignUpViewController.swift in Sources */,
 				A8D3BA1726A872FD000C6E19 /* PersonaFinalProject.xcdatamodeld in Sources */,
+				A8D3BA8D26A8C675000C6E19 /* PopUpViewController.swift in Sources */,
 				A8D3BA4826A88871000C6E19 /* SignInViewController.swift in Sources */,
+				A8D3BA8F26A8C912000C6E19 /* PopUp2ViewController.swift in Sources */,
 				A8D3BA0F26A872FD000C6E19 /* SceneDelegate.swift in Sources */,
 				A8D3BA4426A87F7D000C6E19 /* Sell&BuyViewController.swift in Sources */,
 				A8D3BA4026A87C86000C6E19 /* BrowseViewController.swift in Sources */,

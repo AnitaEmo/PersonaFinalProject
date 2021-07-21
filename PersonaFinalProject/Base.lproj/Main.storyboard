@@ -79,7 +79,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VSw-gH-rXA">
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="looking for inspiration?" translatesAutoresizingMaskIntoConstraints="NO" id="VSw-gH-rXA">
                                 <rect key="frame" x="26" y="127" width="353" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -114,27 +114,27 @@
                                     <segue destination="OKg-4U-DSw" kind="show" id="iZL-EP-dbg"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c5A-Zq-9uP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="digitalArtImg" translatesAutoresizingMaskIntoConstraints="NO" id="c5A-Zq-9uP">
                                 <rect key="frame" x="26" y="236" width="132" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3gs-Wf-lFZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paintingImg" translatesAutoresizingMaskIntoConstraints="NO" id="3gs-Wf-lFZ">
                                 <rect key="frame" x="246" y="236" width="133" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YPX-cP-C39">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicImg" translatesAutoresizingMaskIntoConstraints="NO" id="YPX-cP-C39">
                                 <rect key="frame" x="35" y="431" width="133" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOx-ap-R5L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="craftMakingImg" translatesAutoresizingMaskIntoConstraints="NO" id="OOx-ap-R5L">
                                 <rect key="frame" x="254" y="431" width="133" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SbN-fy-Zgk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sculptureImg" translatesAutoresizingMaskIntoConstraints="NO" id="SbN-fy-Zgk">
                                 <rect key="frame" x="35" y="621" width="133" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GVp-q7-J0f">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="culinaryImg" translatesAutoresizingMaskIntoConstraints="NO" id="GVp-q7-J0f">
                                 <rect key="frame" x="254" y="621" width="133" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -159,15 +159,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Music"/>
                                 <connections>
+                                    <action selector="MusicImg:" destination="4VU-gU-rVv" eventType="touchUpInside" id="GQ9-Iu-IwI"/>
                                     <action selector="MusicTapped:" destination="4VU-gU-rVv" eventType="touchUpInside" id="8pM-bX-a6d"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ah-qb-VYl">
-                                <rect key="frame" x="275" y="480" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Craft-making"/>
-                                <connections>
-                                    <action selector="CraftMakingTapped:" destination="4VU-gU-rVv" eventType="touchUpInside" id="Nmf-vr-VBg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aA2-y4-g9g">
@@ -186,11 +179,26 @@
                                     <action selector="CulinaryTapped:" destination="4VU-gU-rVv" eventType="touchUpInside" id="kh9-vX-IVM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ah-qb-VYl">
+                                <rect key="frame" x="267" y="480" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Craft-making"/>
+                                <connections>
+                                    <action selector="CraftMakingTapped:" destination="4VU-gU-rVv" eventType="touchUpInside" id="WFv-Hu-yNq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OXD-eZ-XJv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="p7m-vA-2Te"/>
+                    <connections>
+                        <outlet property="CraftImg" destination="OOx-ap-R5L" id="FHQ-wO-pfV"/>
+                        <outlet property="Culinary" destination="GVp-q7-J0f" id="MMz-tY-DNG"/>
+                        <outlet property="DigitalArtImg" destination="c5A-Zq-9uP" id="JmK-KI-bdg"/>
+                        <outlet property="PaintingImg" destination="3gs-Wf-lFZ" id="iCs-GU-3b2"/>
+                        <outlet property="SculptureImg" destination="SbN-fy-Zgk" id="Euz-vq-H2O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nBR-yv-KN5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -397,20 +405,123 @@
             </objects>
             <point key="canvasLocation" x="1037.68115942029" y="780.80357142857144"/>
         </scene>
-        <!--Gradient View Controller-->
-        <scene sceneID="wBl-Ze-G4o">
+        <!--Pop Up View Controller-->
+        <scene sceneID="y6w-Hs-Lur">
             <objects>
-                <viewController id="DDO-IT-Gra" customClass="GradientViewController" customModule="PersonaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="huY-Kb-SBI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="hGJ-Wc-IQi" customClass="PopUpViewController" customModule="PersonaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hFx-Rf-mlK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="qTR-5t-4kf"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-FU-zZN">
+                                <rect key="frame" x="70" y="123" width="275" height="584"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Edo_Woman" translatesAutoresizingMaskIntoConstraints="NO" id="gBz-uR-VC8">
+                                        <rect key="frame" x="51" y="8" width="172" height="228"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Traditional Wear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gX5-Qo-Daf">
+                                        <rect key="frame" x="19" y="279" width="167" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHs-W5-TCR">
+                                        <rect key="frame" x="-75" y="328" width="0.0" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8bv-98-GY9">
+                                        <rect key="frame" x="17" y="328" width="240" height="114"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Boba, Iro, and Iborun is traditional wear worn by some Nigerians. This magazine cover was a fun way to share my culture.                                                                                           -Anita Emokpae</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmO-Yt-lve">
+                                        <rect key="frame" x="110" y="496" width="57" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="Return"/>
+                                        <connections>
+                                            <segue destination="liU-ig-d9V" kind="show" id="5yM-4I-MUp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TDf-WX-3Is"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fTJ-Yz-9MN"/>
+                    <connections>
+                        <outlet property="ReturnTapped" destination="Z9e-FU-zZN" id="oE7-5g-mEm"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TID-Gr-pb1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPl-3x-MCu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2092" y="791"/>
+            <point key="canvasLocation" x="1834.7826086956522" y="780.80357142857144"/>
+        </scene>
+        <!--Pop Up2 View Controller-->
+        <scene sceneID="VGA-e3-9fd">
+            <objects>
+                <viewController id="4Aq-aJ-3pX" customClass="PopUp2ViewController" customModule="PersonaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k8C-Hj-gkz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3o-w7-Zhx">
+                                <rect key="frame" x="69" y="95" width="276" height="643"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Edo_Woman-1" translatesAutoresizingMaskIntoConstraints="NO" id="W6Y-1j-SW9">
+                                        <rect key="frame" x="43" y="22" width="191" height="182"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edo Woman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSg-6U-uJU">
+                                        <rect key="frame" x="20" y="289" width="122" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5SK-r5-Xn4">
+                                        <rect key="frame" x="20" y="354" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Edo women typically wear coral beads as brides, and the size and color of the beads have varying meanings.                                                -Anita Emokpae</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmG-PK-wST">
+                                        <rect key="frame" x="110" y="549" width="57" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="Return"/>
+                                        <connections>
+                                            <action selector="ReturnTapped2:" destination="4Aq-aJ-3pX" eventType="touchUpInside" id="h4b-JT-zID"/>
+                                            <segue destination="liU-ig-d9V" kind="show" id="0ZV-CG-TxA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HW8-mz-bZe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W8j-PP-EJ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2vI-XK-6r6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2724.6376811594205" y="775.44642857142856"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="ZwQ-5D-ibz">
@@ -420,19 +531,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3VB-fb-0OF">
-                                <rect key="frame" x="29" y="112" width="145" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture of me" translatesAutoresizingMaskIntoConstraints="NO" id="3VB-fb-0OF">
+                                <rect key="frame" x="25" y="112" width="145" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo7-kz-ubF">
-                                <rect key="frame" x="231" y="112" width="52" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo7-kz-ubF">
+                                <rect key="frame" x="231" y="112" width="45" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-YM-fS5">
-                                <rect key="frame" x="236" y="199" width="25" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visual Artist | IG: @artbyannni" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-YM-fS5">
+                                <rect key="frame" x="167" y="144" width="247" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -445,11 +556,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ive-FS-7Z0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Edo_Woman" translatesAutoresizingMaskIntoConstraints="NO" id="Ive-FS-7Z0">
                                 <rect key="frame" x="12" y="375" width="162" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xC7-ro-yWw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Edo_Woman-1" translatesAutoresizingMaskIntoConstraints="NO" id="xC7-ro-yWw">
                                 <rect key="frame" x="224" y="375" width="155" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -460,14 +571,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EIS-hA-ggE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6213" translatesAutoresizingMaskIntoConstraints="NO" id="EIS-hA-ggE">
                                 <rect key="frame" x="12" y="638" width="162" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-BM-13N">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6212" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-BM-13N">
                                 <rect key="frame" x="216" y="638" width="163" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSk-zr-yaC">
+                                <rect key="frame" x="29" y="788" width="74" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="magnifyingglass" catalog="system"/>
+                                <connections>
+                                    <segue destination="4VU-gU-rVv" kind="show" id="1bx-5m-enS"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2u-Su-YWn">
                                 <rect key="frame" x="97" y="788" width="73" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -489,12 +608,22 @@
                                     <segue destination="OKg-4U-DSw" kind="show" id="kY1-C3-MoU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSk-zr-yaC">
-                                <rect key="frame" x="29" y="788" width="74" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYf-6d-RrD">
+                                <rect key="frame" x="47" y="511" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="magnifyingglass" catalog="system"/>
+                                <state key="normal" title="Learn more."/>
                                 <connections>
-                                    <segue destination="4VU-gU-rVv" kind="show" id="1bx-5m-enS"/>
+                                    <action selector="LearnMoreTapped1:" destination="liU-ig-d9V" eventType="touchUpInside" id="Gdl-yb-Vm6"/>
+                                    <segue destination="hGJ-Wc-IQi" kind="show" id="FjR-5E-Tg3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNH-Mf-cjm">
+                                <rect key="frame" x="239" y="511" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Learn more."/>
+                                <connections>
+                                    <action selector="LearnMoreTapped2:" destination="liU-ig-d9V" eventType="touchUpInside" id="VBw-bP-imo"/>
+                                    <segue destination="4Aq-aJ-3pX" kind="show" id="VsS-c2-SUU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -502,10 +631,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="1X8-Mb-eA8"/>
+                    <connections>
+                        <outlet property="Artwork1" destination="Ive-FS-7Z0" id="dcb-Je-qEV"/>
+                        <outlet property="Artwork2" destination="xC7-ro-yWw" id="bmO-Zv-8Gn"/>
+                        <outlet property="PictureOfMe" destination="3VB-fb-0OF" id="zPw-DN-gQK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DzK-eM-Jxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688" y="75"/>
+            <point key="canvasLocation" x="1686.9565217391305" y="75"/>
         </scene>
         <!--Sell Buy View Controller-->
         <scene sceneID="eOG-PT-YLG">
@@ -649,20 +783,34 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iZL-EP-dbg"/>
-        <segue reference="pvR-Wh-g1r"/>
-        <segue reference="97f-sA-9yR"/>
-        <segue reference="mqm-wY-rip"/>
+        <segue reference="kY1-C3-MoU"/>
+        <segue reference="WQo-ik-caK"/>
+        <segue reference="0ZV-CG-TxA"/>
+        <segue reference="1bx-5m-enS"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Edo_Woman" width="834" height="1112"/>
+        <image name="Edo_Woman-1" width="1080" height="1080"/>
+        <image name="IMG_6212" width="409" height="373"/>
+        <image name="IMG_6213" width="422" height="395"/>
+        <image name="Picture of me" width="1512" height="2016"/>
         <image name="applelogo" catalog="system" width="103" height="128"/>
         <image name="bag" catalog="system" width="128" height="128"/>
         <image name="bag.fill" catalog="system" width="128" height="128"/>
         <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="craftMakingImg" width="910" height="607"/>
+        <image name="culinaryImg" width="910" height="650"/>
+        <image name="digitalArtImg" width="2309" height="1299"/>
         <image name="lock" catalog="system" width="128" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="mail" catalog="system" width="128" height="93"/>
         <image name="message" catalog="system" width="128" height="113"/>
+        <image name="musicImg" width="275" height="183"/>
+        <image name="paintingImg" width="1200" height="906"/>
+        <image name="sculptureImg" width="540" height="720"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="quaternaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

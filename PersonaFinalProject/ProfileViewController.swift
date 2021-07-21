@@ -15,6 +15,22 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func LearnMoreTapped2(_ sender: Any) {
+    }
+    @IBAction func LearnMoreTapped1(_ sender: Any) {
+    }
+    @IBOutlet weak var PictureOfMe: UIImageView!
+    @IBOutlet weak var Artwork1: UIImageView!
+    
+    
+    @IBOutlet weak var Artwork2: UIImageView!
+    }
+    
+
+    
+    
+    
+    
 
     /*
     // MARK: - Navigation
@@ -26,4 +42,4 @@ class ProfileViewController: UIViewController {
     }
     */
 
-}
+
