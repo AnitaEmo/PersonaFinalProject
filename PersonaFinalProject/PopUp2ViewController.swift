@@ -15,9 +15,14 @@ class PopUp2ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func ReturnTapped2(_ sender: Any) {
+        LikeEmoji2.text = "❤️"
     }
     
-
+    @IBOutlet weak var LikeEmoji2: UILabel!
+    
+    @IBAction func LikeTapped2(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
