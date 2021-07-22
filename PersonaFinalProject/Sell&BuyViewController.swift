@@ -15,7 +15,36 @@ class Sell_BuyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func JamesStoreTapped(_ sender: Any) {
+        openJamesStoreUrl(urlStr: "http://www.jamesjean.com/")
+    }
+    func openJamesStoreUrl(urlStr: String!){
+        if let url = URL(string:urlStr),
+           !url.absoluteString.isEmpty{
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func SmallBusinessesTapped(_ sender: Any) {
+        openSmallBusinessesUrl(urlStr: "https://www.etsy.com/")
+    }
+    func openSmallBusinessesUrl(urlStr: String!){
+        if let url = URL(string:urlStr),
+           !url.absoluteString.isEmpty{
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func RugmakingTapped(_ sender: Any) {
+        openRugmakingUrl(urlStr: "https://curriegoat.com/")
+    }
+    func openRugmakingUrl(urlStr: String!){
+        if let url = URL(string:urlStr),
+           !url.absoluteString.isEmpty{
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
