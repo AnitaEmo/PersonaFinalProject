@@ -15,7 +15,25 @@ class CollaborateViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func ArtPostTapped(_ sender: Any) {
+        openArtPostUrl(urlStr: "https://www.reddit.com/r/Art/")
+    }
+    func openArtPostUrl(urlStr: String!){
+        if let url = URL(string:urlStr),
+           !url.absoluteString.isEmpty{
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    @IBAction func MusicianPost(_ sender: Any) {
+        openMusicianPostUrl(urlStr: "https://www.reddit.com/r/shareyourmusic/")
+    }
+    func openMusicianPostUrl(urlStr: String!){
+        if let url = URL(string:urlStr),
+           !url.absoluteString.isEmpty{
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
