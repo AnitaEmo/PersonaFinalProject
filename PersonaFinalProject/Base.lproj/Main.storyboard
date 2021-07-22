@@ -497,9 +497,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqN-vA-LHX">
-                                        <rect key="frame" x="0.0" y="547" width="268" height="36"/>
+                                        <rect key="frame" x="-10" y="536" width="297" height="62"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -707,6 +707,9 @@
                                 <rect key="frame" x="243" y="798" width="69" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="applelogo" catalog="system"/>
+                                <connections>
+                                    <segue destination="liU-ig-d9V" kind="show" id="3gX-I8-zFe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yts-lE-67T">
                                 <rect key="frame" x="323" y="798" width="76" height="22"/>
@@ -787,12 +790,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kY1-C3-MoU"/>
+        <segue reference="DFz-v2-qf2"/>
         <segue reference="WQo-ik-caK"/>
-        <segue reference="0ZV-CG-TxA"/>
+        <segue reference="3gX-I8-zFe"/>
         <segue reference="391-wE-axM"/>
         <segue reference="fm1-hS-9bH"/>
-        <segue reference="1bx-5m-enS"/>
+        <segue reference="iJr-Xt-cAQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Edo_Woman" width="834" height="1112"/>
