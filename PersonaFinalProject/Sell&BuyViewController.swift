@@ -25,6 +25,18 @@ class Sell_BuyViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func QuynhStoreTapped(_ sender: Any) {
+        openQuynhStoreUrl(urlStr: "https://soundcloud.com/")
+        }
+    func openQuynhStoreUrl(urlStr: String!){
+        if let url = URL(string:urlStr), !url.absoluteString.isEmpty{
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    
     @IBAction func SmallBusinessesTapped(_ sender: Any) {
         openSmallBusinessesUrl(urlStr: "https://www.etsy.com/")
     }
