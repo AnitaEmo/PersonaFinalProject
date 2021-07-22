@@ -17,7 +17,10 @@ class PopUpViewController: UIViewController {
     
     @IBAction func LikeTapped(_ sender: Any) {
         LikeEmoji.text = "❤️"
+        LikeNumberLabel.text = "HappyGirl and 5 others liked your work!"
     }
+    
+    @IBOutlet weak var LikeNumberLabel: UILabel!
     
     @IBOutlet weak var LikeEmoji: UILabel!
     

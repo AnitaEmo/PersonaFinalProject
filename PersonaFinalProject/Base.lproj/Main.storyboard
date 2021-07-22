@@ -407,9 +407,16 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZx-aX-ilX">
-                                        <rect key="frame" x="103" y="504" width="69" height="42"/>
+                                        <rect key="frame" x="162" y="461" width="69" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ka-Yx-TdL">
+                                        <rect key="frame" x="0.0" y="511" width="284" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -423,6 +430,7 @@
                     <navigationItem key="navigationItem" id="fTJ-Yz-9MN"/>
                     <connections>
                         <outlet property="LikeEmoji" destination="nZx-aX-ilX" id="8hG-70-HKt"/>
+                        <outlet property="LikeNumberLabel" destination="2Ka-Yx-TdL" id="QZN-I2-w7U"/>
                         <outlet property="ReturnTapped" destination="Z9e-FU-zZN" id="oE7-5g-mEm"/>
                     </connections>
                 </viewController>
@@ -482,9 +490,16 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HR-Ls-OIi">
-                                        <rect key="frame" x="103" y="533" width="75" height="50"/>
+                                        <rect key="frame" x="164" y="497" width="75" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqN-vA-LHX">
+                                        <rect key="frame" x="0.0" y="547" width="268" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -498,6 +513,7 @@
                     <navigationItem key="navigationItem" id="W8j-PP-EJ0"/>
                     <connections>
                         <outlet property="LikeEmoji2" destination="2HR-Ls-OIi" id="4AA-zh-JRV"/>
+                        <outlet property="LikeNumber2Label" destination="mqN-vA-LHX" id="Shh-uR-s4N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vI-XK-6r6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -524,7 +540,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visual Artist | IG: @artbyannni" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-YM-fS5">
-                                <rect key="frame" x="167" y="144" width="247" height="111"/>
+                                <rect key="frame" x="157" y="144" width="247" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -607,6 +623,13 @@
                                     <segue destination="4Aq-aJ-3pX" kind="show" id="VsS-c2-SUU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sam123 and 2 others follow you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6P-cd-dWv">
+                                <rect key="frame" x="163" y="219" width="202" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vyb-vP-MWp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -766,10 +789,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="kY1-C3-MoU"/>
         <segue reference="WQo-ik-caK"/>
-        <segue reference="hed-RE-lxS"/>
+        <segue reference="0ZV-CG-TxA"/>
         <segue reference="391-wE-axM"/>
         <segue reference="fm1-hS-9bH"/>
-        <segue reference="Hr8-Z6-Dm7"/>
+        <segue reference="1bx-5m-enS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Edo_Woman" width="834" height="1112"/>
