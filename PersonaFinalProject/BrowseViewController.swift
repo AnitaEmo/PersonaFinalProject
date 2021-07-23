@@ -69,7 +69,7 @@ class BrowseViewController: UIViewController {
     
     
     @IBAction func SculptureTapped(_ sender: Any) {
-        openSculpUrl(urlStr: "https://sculpture.org/")
+        openSculpUrl(urlStr: "https://mafanfa.com/")
     }
     func openSculpUrl(urlStr: String!){
         if let url = URL(string:urlStr), !url.absoluteString.isEmpty{

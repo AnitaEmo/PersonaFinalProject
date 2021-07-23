@@ -23,7 +23,7 @@ class PopUp2ViewController: UIViewController {
     
     @IBAction func LikeTapped2(_ sender: Any) {
         LikeEmoji2.text = "❤️"
-        LikeNumber2Label.text = "HappyGirl and 13 others liked your work!"
+        LikeNumber2Label.text = "HappyGirl and others liked your work!"
     }
     
     /*
