@@ -894,6 +894,13 @@
                                     <action selector="JamesStoreTapped:" destination="hs6-BW-dpV" eventType="touchUpInside" id="J3P-r6-KDx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sell &amp; Buy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sp-YN-sPM">
+                                <rect key="frame" x="136" y="20" width="142" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="0.18039215689999999" green="0.15686274510000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t1Y-MG-zwW"/>
                         <color key="backgroundColor" red="1" green="1" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1038,6 +1045,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Collaborate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7R-dk-0Pn">
+                                <rect key="frame" x="132" y="20" width="165" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="0.18039215689999999" green="0.15686274510000001" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fu0-v4-fKe"/>
                         <color key="backgroundColor" red="1" green="1" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1052,8 +1066,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="mHo-fN-rbE"/>
         <segue reference="9Tp-ST-j4p"/>
-        <segue reference="PRz-wd-3vT"/>
-        <segue reference="76F-Em-aJY"/>
+        <segue reference="ABt-KW-rf2"/>
+        <segue reference="lzE-ul-VCl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="14644E9C-76F5-4FF4-8EE1-65DA9A08ABE8_4_5005_c" width="726" height="201"/>
